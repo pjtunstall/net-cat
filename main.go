@@ -18,6 +18,23 @@
 // `./TCPChat`, you type `go run .` and where they say
 // run `./TCPChat 2525`, you type `go run . 2525`.
 
+// The example suggests that someone joining an existing
+// chat sees something like this:
+
+// [ENTER YOUR NAME]: Lee
+// [2020-01-20 16:03:43][Yenlik]:hello
+// [2020-01-20 16:03:46][Yenlik]:How are you?
+
+// I've also included "system messages" as it seems
+// useful to let a new client know who's already
+// in the chat, even if they haven't posted any messages
+// yet. The instructions don't forbid it. Thus:
+
+// [ENTER YOUR NAME]: Lee
+// Yenlik has joined our chat...
+// [2020-01-20 16:03:43][Yenlik]:hello
+// [2020-01-20 16:03:46][Yenlik]:How are you?
+
 package main
 
 import (
