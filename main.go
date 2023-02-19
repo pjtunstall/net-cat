@@ -1,3 +1,23 @@
+// Run the following command to build an executable file
+// if you want to test it exeactly as the audit questions
+// suggest. You may have to add flags to indicate which
+// OS you want to run it on. Look them up or ask ChatGPT.
+// You may also have to run commands to get permission to
+// run the executable file.
+
+// Apparently we're not allowed to push executable files
+// to Gitea.
+
+// go build -o CTPChat main.go
+
+// Alternatively, if this is a faff, you can just run
+// `go run main.go`  or `go run .` while in the same
+// directory as this source code file.
+
+// In that case, where the audit questions say to run
+// `./TCPChat`, you type `go run .` and where they say
+// run `./TCPChat 2525`, you type `go run . 2525`.
+
 package main
 
 import (
