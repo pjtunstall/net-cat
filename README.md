@@ -8,7 +8,7 @@
 
 ## 1. THE BRIEF
 
-The object of this exercise is write a server in Go that will reproduce some of the functionality of net-cat, a real-time chat application.
+The object of this exercise is to write a server in Go that will reproduce some of the functionality of net-cat, a real-time chat application.
 
 ## 2. HOW TO LAUNCH THE SERVER
 
