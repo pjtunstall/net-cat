@@ -30,7 +30,7 @@ First, replace "localhost" in the source code with the IP address of the server.
 
 Next, build an executable file if you want to run the program that way. To connect, you'll need to open a terminal and type `nc`, followed by the IP address of the server and, optionally, the port number, then press ENTER.
 
-If you want to run the server on campus, be warned that we can't connect over the college wifi network. You could try to connect to the server via a mobile hotspot. If one combination of computer and phone doesn't work, try another. It can be done.
+If you want to run the server on campus, be warned that we can't connect over the college wifi network. For reasons of security, we aren't permitted. You could try to connect to the server via a mobile hotspot. If one combination of computer and phone doesn't work, try another. It can be done.
 
 To run it from home, you'll need to configure your router settings to allow port forwarding, if your internet provider permits.
 
@@ -38,7 +38,7 @@ For greater stability, a free dynamic domain name service, such as DuckDNS or No
 
 A VPN might be used to bypass restrictions and connect over a local network. Third-party hosting services offer another option for different devices to connect.
 
-Be sure grant access through any intervening firewalls.
+Be sure to grant access through any intervening firewalls.
 
 ## 5. SYSTEM MESSAGES
 
