@@ -42,7 +42,7 @@ Be sure to grant access through any intervening firewalls.
 
 ## 5. SYSTEM MESSAGES
 
-The example in the instructions suggests that someone (Lee) joining an existing chat (started by Yenlik) sees something like this:
+The example in the instructions suggests that someone (Lee) joining an existing chat (started by Yenlik) sees this:
 
 ```
 [ENTER YOUR NAME]: Lee
@@ -50,7 +50,7 @@ The example in the instructions suggests that someone (Lee) joining an existing 
 [2020-01-20 16:03:46][Yenlik]:How are you?
 ```
 
-We've chosen to also include "system messages" as it seems useful to let a new client know who's already in the chat, even if they haven't posed any messages yet. Thus:
+Our net-cat likewise displays all the dialogue, but we've chosen to also include "system messages" in the chat history as it seems useful to let a new client know who's already in the chat, even people who haven't posed any messages yet. Thus:
 
 ```
 [ENTER YOUR NAME]: Lee
