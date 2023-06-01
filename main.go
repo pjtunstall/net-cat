@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	host      = "localhost"
+	host      = "0.0.0.0"
 	port      = 8989
 	chat      = []string{}
 	clients   = map[net.Conn]bool{}
