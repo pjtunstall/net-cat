@@ -5,6 +5,7 @@
 3. [HOW TO JOIN THE CHAT](#3-how-to-join-the-chat)
 4. [HOW TO JOIN ON A DIFFERENT COMPUTER](#4-how-to-join-on-a-different-computer)
 5. [SYSTEM MESSAGES](#5-system-messages)
+6. [TROUBLESHOOTING AND OTHER OPTIONS](#6-troubleshooting-and-other-options)
 
 ## 1. THE BRIEF
 
@@ -26,19 +27,15 @@ To join on the same computer as the server, leave the server running in its term
 
 ## 4. HOW TO JOIN ON A DIFFERENT COMPUTER
 
-First, replace "localhost" in the source code with the IP address of the server.
+To set up a chat using your home internet, you'll need to configure your router settings to allow port forwarding, if your internet provider permits.
 
-Next, build an executable file if you want to run the program that way. To connect, you'll need to open a terminal and type `nc`, followed by the IP address of the server and, optionally, the port number, then press ENTER.
+If you want to run the server on campus, be warned that we can't connect over the college wifi network. For reasons of security, we aren't permitted.
 
-If you want to run the server on campus, be warned that we can't connect over the college wifi network. For reasons of security, we aren't permitted. You could try to connect to the server via a mobile hotspot. If one combination of computer and phone doesn't work, try another. It can be done.
+Alternatively you can use a mobile hotspot.
 
-To run it from home, you'll need to configure your router settings to allow port forwarding, if your internet provider permits.
+Whichever method you choose, open a terminal and run the server as described above.
 
-For greater stability, a free dynamic domain name service, such as DuckDNS or No-IP, could be used to associate a domain name with your IP address, even if your IP address is dynamically assigned by your Internet Service Provider (ISP) and changes periodically.
-
-A VPN might be used to bypass restrictions and connect over a local network. Third-party hosting services offer another option for different devices to connect.
-
-Be sure to grant access through any intervening firewalls.
+Then open terminals on two different computers and type `nc`, followed by the IP address of the server and, optionally, the port number, then press ENTER.
 
 ## 5. SYSTEM MESSAGES
 
@@ -58,3 +55,11 @@ Yenlik has joined our chat...
 [2020-01-20 16:03:43][Yenlik]:hello
 [2020-01-20 16:03:46][Yenlik]:How are you?
 ```
+
+## 6. TROUBLESHOOTING AND OTHER OPTIONS
+
+If one combination of computers and phone doesn't work, try another. It can be done. Be sure to grant access through any intervening firewalls.
+
+For greater stability, a free dynamic domain name service, such as DuckDNS or No-IP, could be used to associate a domain name with your IP address, even if your IP address is dynamically assigned by your Internet Service Provider (ISP) and changes periodically.
+
+A VPN might be used to bypass restrictions and connect over a local network. Third-party hosting services offer another option for different devices to connect.
